@@ -1,0 +1,12 @@
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.csprojResolveAssemblyReference.cache
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.Migrations.exe.config
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.Migrations.exe
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.Migrations.pdb
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.SqlServer.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.DTO.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.DTO.pdb
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.xml
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.SqlServer.xml
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.exe
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.pdb

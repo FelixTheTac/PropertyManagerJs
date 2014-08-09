@@ -1,0 +1,10 @@
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\PropertyManager.DTO.dll.config
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\PropertyManager.DTO.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\PropertyManager.DTO.pdb
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.SqlServer.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.xml
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.SqlServer.xml
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.pdb
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.csprojResolveAssemblyReference.cache

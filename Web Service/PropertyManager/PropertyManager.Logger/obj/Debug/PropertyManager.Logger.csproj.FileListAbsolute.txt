@@ -1,0 +1,7 @@
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\PropertyManager.Logger.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\PropertyManager.Logger.pdb
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\log4net.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\log4net.xml
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.csprojResolveAssemblyReference.cache
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.dll
+E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.pdb
