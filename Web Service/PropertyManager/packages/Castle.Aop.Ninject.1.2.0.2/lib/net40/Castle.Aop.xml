@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.Aop</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.Aop.InterceptorAttribute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Castle.Aop.InterceptorAttribute.#ctor(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="P:Castle.Aop.InterceptorAttribute.InterceptorName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Castle.Aop.InterceptorAttribute.InterceptorType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Castle.Aop.InterceptorAttribute.Order">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Castle.Aop.IInterceptorProxy">
+            <summary>
+            Interceptor proxy
+            </summary>
+        </member>
+        <member name="P:Castle.Aop.IInterceptorProxy.Container">
+            <summary>
+            IoC Container reference
+            </summary>
+        </member>
+        <member name="T:Castle.Aop.InterceptorHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Castle.Aop.InterceptorHelper.HasInterceptor(System.Type)">
+            <summary />
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Castle.Aop.InterceptorHelper.CollectMethodInterceptors(System.Reflection.MethodInfo[])">
+            <summary />
+            <param name="methods"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Castle.Aop.InterceptorHelper.CollectTypeInterceptors(System.Type)">
+            <summary />
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Castle.Aop.InterceptorInvocation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Castle.Aop.InterceptorInvocation.#ctor(Castle.DynamicProxy.IInvocation,Castle.DynamicProxy.IInterceptor[])">
+            <summary>
+            
+            </summary>
+            <param name="parent"></param>
+            <param name="interceptors"></param>
+        </member>
+        <member name="M:Castle.Aop.InterceptorInvocation.InvokeMethodOnTarget">
+            <summary />
+        </member>
+        <member name="P:Castle.Aop.InterceptorInvocation.InvocationTarget">
+            <summary />
+        </member>
+        <member name="P:Castle.Aop.InterceptorInvocation.TargetType">
+            <summary />
+        </member>
+        <member name="P:Castle.Aop.InterceptorInvocation.MethodInvocationTarget">
+            <summary />
+        </member>
+        <member name="T:Castle.Aop.InterceptorProxy">
+            <summary />
+        </member>
+        <member name="M:Castle.Aop.InterceptorProxy.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary/>
+            <param name="invocation"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="P:Castle.Aop.InterceptorProxy.Container">
+            <summary />
+        </member>
+        <member name="T:Castle.Aop.ProxyFactory">
+            <summary>
+            Responsible for creating proxies
+            </summary>
+        </member>
+        <member name="M:Castle.Aop.ProxyFactory.#ctor(Castle.DynamicProxy.ProxyGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="proxyGenerator"></param>
+        </member>
+        <member name="M:Castle.Aop.ProxyFactory.CreateProxy(System.Object,Castle.Aop.IInterceptorProxy)">
+            <summary>
+            Returns proxy by interface or class if interface not defined
+            </summary>
+            <param name="target"></param>
+            <param name="interceptorProxy"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
