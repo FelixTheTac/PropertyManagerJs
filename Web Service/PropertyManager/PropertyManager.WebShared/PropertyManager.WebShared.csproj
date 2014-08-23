@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\Controllers\ILoginController.cs" />
     <Compile Include="JwtAuthorizeAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +68,10 @@
     <ProjectReference Include="..\PropertyManager.Cryptography\PropertyManager.Cryptography.csproj">
       <Project>{20a490c1-58ec-42bd-8a02-485fc27faaa7}</Project>
       <Name>PropertyManager.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PropertyManager.DTO\PropertyManager.DTO.csproj">
+      <Project>{9409f51f-8a04-4418-aa3a-01847c31832e}</Project>
+      <Name>PropertyManager.DTO</Name>
     </ProjectReference>
     <ProjectReference Include="..\PropertyManager.Logger\PropertyManager.Logger.csproj">
       <Project>{97d9f8a1-572a-436e-9624-b1ac718ffb94}</Project>
