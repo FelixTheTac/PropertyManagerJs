@@ -8,3 +8,12 @@ E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\E
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.dll
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.pdb
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.csprojResolveAssemblyReference.cache
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\obj\Debug\PropertyManager.DTO.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\PropertyManager.DTO.dll.config
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\PropertyManager.DTO.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\PropertyManager.DTO.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.SqlServer.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.xml
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO\bin\Debug\EntityFramework.SqlServer.xml

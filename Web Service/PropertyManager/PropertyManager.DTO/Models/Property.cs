@@ -25,7 +25,6 @@ namespace PropertyManager.DTO.Models
 
         //navigation properties
         public virtual Address Location { get; set; }
-        public virtual ICollection<PropertyManagerUser> PropertyManagers { get; set; }
-        public virtual ICollection<TenantUser> Tenants { get; set; }
+        public virtual ICollection<User> Users { get; set; }
     }
 }

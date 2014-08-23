@@ -17,9 +17,9 @@ namespace PropertyManager.Migrations
 
         public DbSet<Property> Properties { get; set; }
 
-        public DbSet<PropertyManagerUser> PropertyManagerUsers { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        public DbSet<TenantUser> TenantUsers { get; set; }
+       
 
 
     }

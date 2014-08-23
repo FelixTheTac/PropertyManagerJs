@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/Web Client" libraries="{HTML5 / EcmaScript 5, angularjs-DefinitelyTyped}" />
+    <file url="PROJECT" libraries="{angularjs-DefinitelyTyped, jasmine-DefinitelyTyped}" />
+    <excludedPredefinedLibrary name="HTML" />
+  </component>
+</project>
+

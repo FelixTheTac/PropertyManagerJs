@@ -10,3 +10,15 @@ E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO.Context\obj\Debug\PropertyManager.DTO.Context.csprojResolveAssemblyReference.cache
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO.Context\obj\Debug\PropertyManager.DTO.Context.dll
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.DTO.Context\obj\Debug\PropertyManager.DTO.Context.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\PropertyManager.DTO.Context.dll.config
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\PropertyManager.DTO.Context.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\PropertyManager.DTO.Context.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\EntityFramework.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\EntityFramework.SqlServer.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\PropertyManager.DTO.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\PropertyManager.DTO.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\EntityFramework.xml
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\bin\Debug\EntityFramework.SqlServer.xml
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\obj\Debug\PropertyManager.DTO.Context.csprojResolveAssemblyReference.cache
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\obj\Debug\PropertyManager.DTO.Context.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.DTO.Context\obj\Debug\PropertyManager.DTO.Context.pdb

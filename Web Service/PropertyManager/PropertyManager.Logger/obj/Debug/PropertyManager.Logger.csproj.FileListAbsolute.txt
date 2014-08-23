@@ -5,3 +5,9 @@ E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debu
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.csprojResolveAssemblyReference.cache
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.dll
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\PropertyManager.Logger.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\PropertyManager.Logger.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\log4net.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Logger\bin\Debug\log4net.xml
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Logger\obj\Debug\PropertyManager.Logger.pdb
