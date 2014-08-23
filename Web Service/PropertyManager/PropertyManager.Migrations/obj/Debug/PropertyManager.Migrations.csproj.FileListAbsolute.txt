@@ -10,3 +10,15 @@ E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.SqlServer.xml
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.exe
 E:\propertymanagerjs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.Migrations.exe.config
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.Migrations.exe
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.Migrations.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.SqlServer.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.DTO.dll
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\PropertyManager.DTO.pdb
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.xml
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\bin\Debug\EntityFramework.SqlServer.xml
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.csprojResolveAssemblyReference.cache
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.exe
+E:\FelixTheTac\PropertyManagerJs\Web Service\PropertyManager\PropertyManager.Migrations\obj\Debug\PropertyManager.Migrations.pdb

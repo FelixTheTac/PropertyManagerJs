@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xunit.Ioc.Autofac</name>
+    </assembly>
+    <members>
+        <member name="T:Xunit.Ioc.Autofac.AutofacDependencyResolver">
+            <summary>
+            Implements <see cref="T:Xunit.Ioc.IDependencyResolver"/> and wraps an Autofac <see cref="T:Autofac.ILifetimeScope"/>.
+            </summary>
+            <remarks>
+            Typically you'd use this to wrap your <see cref="T:Autofac.IContainer"/> instance and return it
+            from your <see cref="T:Xunit.Ioc.IDependencyResolverBootstrapper"/> class.
+            </remarks>
+        </member>
+        <member name="T:Xunit.Ioc.Autofac.AutofacDependencyScope">
+            <summary>
+            Implements <see cref="T:Xunit.Ioc.IDependencyScope"/> and wraps an Autofac <see cref="T:Autofac.ILifetimeScope"/>
+            </summary>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.AutofacDependencyScope.#ctor(Autofac.ILifetimeScope)">
+            <summary>
+            Creates an <see cref="T:Xunit.Ioc.Autofac.AutofacDependencyScope"/>
+            </summary>
+            <param name="lifetimeScope">The <see cref="T:Autofac.ILifetimeScope"/> to wrap</param>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.AutofacDependencyScope.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.AutofacDependencyScope.GetType(System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="P:Xunit.Ioc.Autofac.AutofacDependencyScope.LifetimeScope">
+            <summary>
+            The <see cref="T:Autofac.ILifetimeScope"/> wrapped by this instance
+            </summary>
+        </member>
+        <member name="F:Xunit.Ioc.Autofac.AutofacDependencyResolver.TestLifetimeScopeTag">
+            <summary>
+            The tag used on the <see cref="T:Autofac.ILifetimeScope"/> that wraps tests.
+            </summary>
+            <remarks>
+            You should consider using the 
+            <see cref="M:Xunit.Ioc.Autofac.RegistrationExtensions.InstancePerTest``3(Autofac.Builder.IRegistrationBuilder{``0,``1,``2})"/>
+            method instead of this tag directly.
+            </remarks>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.AutofacDependencyResolver.#ctor(Autofac.ILifetimeScope)">
+            <summary>
+            Creates an <see cref="T:Xunit.Ioc.Autofac.AutofacDependencyResolver"/>
+            </summary>
+            <param name="lifetimeScope">The <see cref="T:Autofac.ILifetimeScope"/> to wrap</param>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.AutofacDependencyResolver.CreateScope">
+            <inheritdoc />
+        </member>
+        <member name="T:Xunit.Ioc.Autofac.RegistrationExtensions">
+            <summary>
+            Some utility extensions for Autofac component registration
+            </summary>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.RegistrationExtensions.InstancePerTest``3(Autofac.Builder.IRegistrationBuilder{``0,``1,``2})">
+            <summary>
+            Registers a component so all dependant components will resolve the same shared instance within the test
+            lifetime scope.
+            </summary>
+        </member>
+        <member name="T:Xunit.Ioc.Autofac.TestsModule">
+            <summary>
+            This module allows you to easily register all your test classes within the container
+            </summary>
+            <remarks>
+            It searches for all test classes with the <see cref="T:Xunit.RunWithAttribute"/> set to use
+            the <see cref="T:Xunit.Ioc.IocTestClassCommand"/> and automatically adds them to the container.
+            </remarks>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.TestsModule.#ctor(System.Reflection.Assembly)">
+            <param name="assembly">The assembly to search for test classes</param>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.TestsModule.#ctor(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})">
+            <param name="assemblies">The assemblies to search for test classes</param>
+        </member>
+        <member name="M:Xunit.Ioc.Autofac.TestsModule.Load(Autofac.ContainerBuilder)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

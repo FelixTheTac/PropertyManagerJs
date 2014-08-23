@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xunit.Ioc</name>
+    </assembly>
+    <members>
+        <member name="T:Xunit.Ioc.DependencyResolverBootstrapperAttribute">
+            <summary>
+            This attribute specifies the concrete <see cref="T:Xunit.Ioc.IDependencyResolverBootstrapper"/> class that
+            the test runner will use to resolve the test class and its dependencies.
+            </summary>
+            <remarks>
+            It can be placed on a test class or on the test assembly, or both. If specified on both, the
+            class level attribute is preferred. The specified class must implement 
+            <see cref="T:Xunit.Ioc.IDependencyResolverBootstrapper"/>, must have a public default constructor and must not
+            be abstract.
+            </remarks>
+        </member>
+        <member name="M:Xunit.Ioc.DependencyResolverBootstrapperAttribute.#ctor(System.Type)">
+            <param name="bootstrapperType">
+            The type of a concrete class that will be used to create the container.
+            It must implement <see cref="T:Xunit.Ioc.IDependencyResolverBootstrapper"/>.
+            </param>
+        </member>
+        <member name="P:Xunit.Ioc.DependencyResolverBootstrapperAttribute.BootstrapperType">
+            <summary>
+            Specifies the type of a concrete class that will be used to create the container.
+            It will implement <see cref="T:Xunit.Ioc.IDependencyResolverBootstrapper"/>.
+            </summary>
+        </member>
+        <member name="T:Xunit.Ioc.IDependencyResolver">
+            <summary>
+            Abstraction over an IoC container component that can create IoC container scopes
+            (<see cref="T:Xunit.Ioc.IDependencyScope"/>)
+            </summary>
+        </member>
+        <member name="T:Xunit.Ioc.IDependencyScope">
+            <summary>
+            Abstraction over an IoC container component that represents a scope that can be used
+            to resolve components and manages their lifecycle.
+            </summary>
+        </member>
+        <member name="M:Xunit.Ioc.IDependencyScope.GetType(System.Type)">
+            <summary>
+            Gets an instance of the specified type
+            </summary>
+            <param name="type">The type of object to get</param>
+            <returns>The instance</returns>
+        </member>
+        <member name="M:Xunit.Ioc.IDependencyResolver.CreateScope">
+            <summary>
+            Creates a nested <see cref="T:Xunit.Ioc.IDependencyScope"/>
+            </summary>
+            <returns>The new nested scope</returns>
+        </member>
+        <member name="T:Xunit.Ioc.IDependencyResolverBootstrapper">
+            <summary>
+            Classes that implement this interface can be used with the 
+            <see cref="T:Xunit.Ioc.DependencyResolverBootstrapperAttribute"/> in order to specify the bootstrapper
+            class the test runner should use to get the container instance it will use to resolve
+            test classes.
+            </summary>
+            <remarks>
+            Typically you'd implement this interface on your bootstrapper class and return an
+            <see cref="T:Xunit.Ioc.IDependencyResolver"/> that wraps your IoC container.
+            </remarks>
+        </member>
+        <member name="M:Xunit.Ioc.IDependencyResolverBootstrapper.GetResolver">
+            <summary>
+            Gets the <see cref="T:Xunit.Ioc.IDependencyResolver"/> that will be used to resolve the test class
+            </summary>
+            <returns>The <see cref="T:Xunit.Ioc.IDependencyResolver"/></returns>
+        </member>
+        <member name="T:Xunit.Ioc.IocLifetimeCommand">
+            <summary>
+            A <see cref="T:Xunit.Sdk.ITestCommand"/> that wraps any other <see cref="T:Xunit.Sdk.ITestCommand"/>
+            and resolves the test class instance from the container.
+            </summary>
+            <remarks>
+            These are manufactured by the <see cref="T:Xunit.Ioc.IocTestClassCommand"/>.
+            </remarks>
+        </member>
+        <member name="M:Xunit.Ioc.IocLifetimeCommand.#ctor(Xunit.Sdk.ITestCommand,Xunit.Sdk.IMethodInfo)">
+            <param name="innerCommand">The <see cref="T:Xunit.Sdk.ITestCommand"/> to wrap</param>
+            <param name="method">The method being used as a test</param>
+        </member>
+        <member name="M:Xunit.Ioc.IocLifetimeCommand.Execute(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="P:Xunit.Ioc.IocLifetimeCommand.ShouldCreateInstance">
+            <inheritdoc/>
+        </member>
+        <member name="T:Xunit.Ioc.IocTestClassCommand">
+            <summary>
+            This test class command enables the test runner to resolve instances of the test classes
+            from an IoC container. 
+            </summary>
+            <remarks>
+            Specify this class with the <see cref="T:Xunit.RunWithAttribute"/> at test class level in order to use it 
+            on your tests. To specify which container to resolve the test classes from, use the 
+            <see cref="T:Xunit.Ioc.DependencyResolverBootstrapperAttribute"/>
+            </remarks>
+            <seealso cref="T:Xunit.Ioc.DependencyResolverBootstrapperAttribute"/>
+        </member>
+        <member name="M:Xunit.Ioc.IocTestClassCommand.#ctor">
+            <summary>
+            Creates an instace of the <see cref="T:Xunit.Ioc.IocTestClassCommand"/>.
+            </summary>
+        </member>
+        <member name="M:Xunit.Ioc.IocTestClassCommand.ChooseNextTest(System.Collections.Generic.ICollection{Xunit.Sdk.IMethodInfo})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Xunit.Ioc.IocTestClassCommand.ClassFinish">
+            <inheritdoc/>
+        </member>
+        <member name="M:Xunit.Ioc.IocTestClassCommand.ClassStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Xunit.Ioc.IocTestClassCommand.EnumerateTestCommands(Xunit.Sdk.IMethodInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Xunit.Ioc.IocTestClassCommand.EnumerateTestMethods">
+            <inheritdoc/>
+        </member>
+        <member name="M:Xunit.Ioc.IocTestClassCommand.IsTestMethod(Xunit.Sdk.IMethodInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="P:Xunit.Ioc.IocTestClassCommand.ObjectUnderTest">
+            <inheritdoc/>
+        </member>
+        <member name="P:Xunit.Ioc.IocTestClassCommand.TypeUnderTest">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>
